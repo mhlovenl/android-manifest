@@ -1,0 +1,15 @@
+<manifest>
+  <!--remote name="brcm-bse" fetch="ssh://bseuser@bcm-code.broadcom.com" /-->  
+  <project name="device/broadcom/inuvik" path="device/broadcom/inuvik" remote="brcm-bse" revision="q-tv-dev" />
+  <project name="device/broadcom/common" path="device/broadcom/common" remote="brcm-bse" revision="q-tv-dev" />
+  <project name="platform/vendor/broadcom/bcm_platform" path="vendor/broadcom/bcm_platform" remote="brcm-bse" revision="q-tv-dev" />
+  <project name="platform/vendor/broadcom/drivers" path="vendor/broadcom/drivers" remote="brcm-bse" revision="q-tv-dev" />
+  <project name="platform/vendor/broadcom/playready" path="vendor/broadcom/playready" remote="brcm-bse" revision="q-tv-dev" />
+  <project name="platform/vendor/broadcom/prebuilts" path="vendor/broadcom/prebuilts" remote="brcm-bse" revision="q-tv-dev" />
+  <project name="platform/vendor/broadcom/refsw" path="vendor/broadcom/refsw" remote="brcm-bse" revision="q-tv-dev" />
+  <project name="platform/vendor/broadcom/release_prebuilts" path="vendor/broadcom/release_prebuilts" remote="brcm-bse" revision="q-tv-dev" />
+
+  <project name="kernel/private/bcm-97xxx" path="kernel/private/bcm-97xxx" remote="brcm-bse" revision="q-tv-dev" />
+  <project name="platform/vendor/broadcom/bolt" path="vendor/broadcom/bolt" remote="brcm-bse" revision="q-tv-dev" />
+  <project name="platform/vendor/broadcom/toolchains" path="prebuilts/gcc/linux-x86/arm/stb" remote="brcm-bse" revision="h_avko_p_ab4" />
+</manifest>
