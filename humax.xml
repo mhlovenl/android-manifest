@@ -10,6 +10,8 @@
   <!-- aosp project overrides -->
 
   <!-- broadcom project overrides -->
+  <remove-project name="platform/vendor/broadcom/bolt"/>
+  <project name="platform/vendor/broadcom/bolt" path="vendor/broadcom/bolt" remote="humax" revision="h_inuvik_a10_r2"/>
 
   <!-- humax projects -->
   <project name="device/humax/common" path="device/humax/common" remote="humax" revision="h_inuvik_a10_r2"/>
