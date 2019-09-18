@@ -1,6 +1,6 @@
 <?xml version="1.0" ?><manifest>
   <!-- android & broadcom projects -->
-  <remote fetch="https://android.googlesource.com" name="aosp" review="https://android-review.googlesource.com" sync-c="true"/>
+  <remote fetch="http://oss.humaxdigital.com/git/android.googlesource.com" name="aosp" review="https://android-review.googlesource.com" sync-c="true"/>
   <include name="default.xml"/>
   <remote fetch="ssh://exg.humaxdigital.com:29418/taurus/brcm/AVKO-BSE" name="brcm-bse" sync-c="true"/>
   <include name="brcm.xml"/>
