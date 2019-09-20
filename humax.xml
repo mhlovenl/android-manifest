@@ -11,6 +11,7 @@
   <project name="platform/vendor/google_gtvs" path="vendor/google_gtvs" remote="humax" revision="q-tv-ref-dev"/>
 
   <!-- broadcom project overrides -->
+  <project name="device/broadcom/inuvik-kernel" path="device/broadcom/inuvik-kernel" remote="humax" revision="q-tv-dev"/>  
   <remove-project name="platform/vendor/broadcom/prebuilts"/>
   <project name="platform/vendor/broadcom/prebuilts" path="vendor/broadcom/prebuilts" remote="humax" revision="h_inuvik_a10_r2"/>
   <remove-project name="platform/vendor/broadcom/bolt"/>
