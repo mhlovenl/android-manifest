@@ -9,6 +9,8 @@
 
   <!-- aosp project overrides -->
   <project name="platform/vendor/google_gtvs" path="vendor/google_gtvs" remote="humax" revision="q-tv-ref-dev"/>
+  <remove-project name="platform/bootable/recovery"/>
+  <project name="platform/bootable/recovery" path="bootable/recovery" remote="humax" revision="h_inuvik_a10_r2"/>
 
   <!-- broadcom project overrides -->
   <project name="device/broadcom/inuvik-kernel" path="device/broadcom/inuvik-kernel" remote="humax" revision="q-tv-dev"/>  
